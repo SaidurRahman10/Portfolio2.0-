@@ -1,8 +1,10 @@
 import React from 'react';
+import './Resume.css'
 import { FaBook , FaWpforms , FaAward} from 'react-icons/fa';
 
 
 const Resume = () => {
+    
     return (
         <div  className='mt-52 text-white mx-40 bg-black bg-opacity-50 rounded-2xl shadow-2xl p-16'>
 
@@ -67,7 +69,6 @@ const Resume = () => {
                            <h1 className='text-lg'>WordPress</h1>
                            <h1 className='text-slate-500 tex'>Online Youtube | CodeWithHarry</h1>
                       </div>
-
                   </div>
               </div>
 
@@ -102,14 +103,81 @@ const Resume = () => {
                       </div>
 
                   </div>
-              </div>
-
-
-
-                
+              </div>  
             </div>
 
 
+        {/* Working Skills and Knowledged */}
+        <div className='grid grid-cols-1 lg:grid-cols-2 mt-20'>
+
+        <div className=''>
+            <h1 className='font-bold text-2xl'>Working Skills</h1>
+
+            <div className='mt-8'>
+                ----------------
+                <div class="skill-bars text-black">
+    <div class="bar">
+      <div class="info">
+        <span>HTML &  CSS</span>
+      </div>
+      <div class="progress-line html">
+        <span></span>
+      </div>
+    </div>
+    <div class="bar">
+      <div class="info">
+        <span>Tailwind CSS</span>
+      </div>
+      <div class="progress-line css">
+        <span></span>
+      </div>
+    </div>
+    <div class="bar">
+      <div class="info">
+        <span>JavaScript</span>
+      </div>
+      <div class="progress-line jquery">
+        <span></span>
+      </div>
+    </div>
+    <div class="bar">
+      <div class="info">
+        <span>React. js</span>
+      </div>
+      <div class="progress-line python">
+        <span></span>
+      </div>
+    </div>
+    <div class="bar">
+      <div class="info">
+        <span>MongoDB</span>
+      </div>
+      <div class="progress-line mysql">
+        <span></span>
+      </div>
+    </div>
+    <div class="bar">
+      <div class="info">
+        <span>Graphic Design</span>
+      </div>
+      <div class="progress-line gd">
+        <span></span>
+      </div>
+    </div>
+  </div>
+
+            </div>
+
+        </div>
+
+
+
+
+        <div>
+
+        </div>
+
+        </div>
 
 
 

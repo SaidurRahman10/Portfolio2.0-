@@ -16,10 +16,10 @@ const HeroSection = () => {
                 <div className='mt-4 flex justify-center'>
                     <div>
                     <h1 className='font-bold text-3xl uppercase text-center'>   <Typewriter
-                       loop={50}
+                       loop={20}
                       cursor
                       cursorStyle='_'
-                     words={['SRS', 'Saidur Rahman', 'Saidur Sabbir', ' Saidur Rahman!']}
+                     words={['SRS', 'Saidur Rahman', 'Saidur', ' Saidur Rahman']}
                     /></h1>
                  
                    
