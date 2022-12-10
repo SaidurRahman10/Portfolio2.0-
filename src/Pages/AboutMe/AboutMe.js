@@ -6,7 +6,7 @@ import {  FaPhone, FaLocationArrow, FaEnvelope, FaCalendar } from 'react-icons/f
 const AboutMe = () => {
 
     return (
-        <div  className='mt-52 text-white mx-40 bg-black bg-opacity-50 rounded-2xl shadow-2xl p-16'>
+        <div  className='mt-52 text-white lg:mx-40 bg-black bg-opacity-50 rounded-2xl shadow-2xl p-16'>
          
 
 

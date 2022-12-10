@@ -6,7 +6,7 @@ import { FaBook , FaWpforms , FaAward} from 'react-icons/fa';
 const Resume = () => {
     
     return (
-        <div  className='mt-52 text-white mx-40 bg-black bg-opacity-50 rounded-2xl shadow-2xl p-16'>
+        <div  className='mt-52 text-white lg:mx-40 bg-black bg-opacity-50 rounded-2xl shadow-2xl p-16'>
 
             <div>
                 <h1 className='text-5xl font-bold flex gap-2 '>Resume<hr  className="my-4   w-48 h-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...  rounded border-0 md:my-10 dark:bg-gray-700"></hr> </h1>               
@@ -108,13 +108,13 @@ const Resume = () => {
 
 
         {/* Working Skills and Knowledged */}
-        <div className='grid grid-cols-1 lg:grid-cols-2 mt-20'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 mt-20 gap-36'>
 
         <div className=''>
             <h1 className='font-bold text-2xl'>Working Skills</h1>
 
             <div className='mt-8'>
-                ----------------
+              
                 <div class="skill-bars text-black">
     <div class="bar">
       <div class="info">
@@ -173,10 +173,28 @@ const Resume = () => {
 
 
 
-        <div>
+        <div className='text-white'>
+        <h1 className='font-bold text-2xl '>Knowledged</h1>
+        <div className='mt-8 flex flex-wrap gap-4'>
 
+        <h1 className='text-md text-slate-400 bg-slate-800 px-3 py-1 rounded-full'>Front-End Development</h1>
+        <h1 className='text-md text-slate-400 bg-slate-800 px-3 py-1 rounded-full'>JavaScript</h1>
+        <h1 className='text-md text-slate-400 bg-slate-800 px-3 py-1 rounded-full'>Tailwind CSS</h1>
+        <h1 className='text-md text-slate-400 bg-slate-800 px-3 py-1 rounded-full'>Express. js</h1>
+        <h1 className='text-md text-slate-400 bg-slate-800 px-3 py-1 rounded-full'>Responsive Web Design</h1>
+        <h1 className='text-md text-slate-400 bg-slate-800 px-3 py-1 rounded-full'>React. Js</h1>
+        <h1 className='text-md text-slate-400 bg-slate-800 px-3 py-1 rounded-full'>Node. js</h1>
+        <h1 className='text-md text-slate-400 bg-slate-800 px-3 py-1 rounded-full'>MongoDB</h1>
+        <h1 className='text-md text-slate-400 bg-slate-800 px-3 py-1 rounded-full'>C Programming</h1>
+        <h1 className='text-md text-slate-400 bg-slate-800 px-3 py-1 rounded-full'>WordPress</h1>
+       
+        <h1 className='text-md text-slate-400 bg-slate-800 px-3 py-1 rounded-full'>Problem Solving</h1>
+        <h1 className='text-md text-slate-400 bg-slate-800 px-3 py-1 rounded-full'>Bootstrap</h1>
+        <h1 className='text-md text-slate-400 bg-slate-800 px-3 py-1 rounded-full'>Logo Making</h1>
+        <h1 className='text-md text-slate-400 bg-slate-800 px-3 py-1 rounded-full'>Canva</h1>
+        <h1 className='text-md text-slate-400 bg-slate-800 px-3 py-1 rounded-full'>Graphic Design</h1>
         </div>
-
+        </div>
         </div>
 
 
