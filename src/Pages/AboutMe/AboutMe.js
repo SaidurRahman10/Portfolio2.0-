@@ -6,7 +6,7 @@ import {  FaPhone, FaLocationArrow, FaEnvelope, FaCalendar } from 'react-icons/f
 const AboutMe = () => {
 
     return (
-        <div  className='mt-52 text-white lg:mx-40 bg-black bg-opacity-50 rounded-2xl shadow-2xl p-16'>
+        <div id='about'  className='mt-52 text-white lg:mx-40 bg-black bg-opacity-50 rounded-2xl shadow-2xl p-16'>
          
 
 
@@ -32,7 +32,7 @@ const AboutMe = () => {
                <div className='mt-12'>
                 <h1 className='text-xl font-bold'>Personal Info</h1>
 
-                <div className='mt-5 grid grid-cols-2 gap-5'>
+                <div className='mt-5 grid grid-cols-1 md:grid-cols-2 gap-5'>
 
                     <div className='flex gap-3'>
                         <div><FaPhone className=' h-5 w-5  text-red-500 '></FaPhone></div>
@@ -44,7 +44,7 @@ const AboutMe = () => {
 
 
 
-                    <div className='flex gap-3'>
+                    <div className='flex gap-3 '>
                         <div><FaLocationArrow className=' h-5 w-5  text-sky-500 '></FaLocationArrow></div>
                         <div className=''>
                          <p className='text-xs text-slate-400'>Location</p>

@@ -33,7 +33,7 @@ const Header = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link to='/' className="flex items-center hover:text-lg duration-300 transform bg-slate-600 text-white px-3 rounded-md py-2 font-bold hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ... ">
+        <Link to='/' className="flex items-center hover:text-lg duration-300 transform  text-white px-3 rounded-md py-2 font-bold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ... ">
       <HomeIcon className='w-5 h-6 mr-1'></HomeIcon>  Home
         </Link>
       </Typography>
@@ -43,9 +43,9 @@ const Header = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-         <Link to='/blog'  className="flex items-center hover:text-lg duration-300 transform bg-slate-600 text-white px-3 rounded-md py-2 font-bold hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...">
+         <a href='#about'  className="flex items-center hover:text-lg duration-300 transform bg-slate-600 text-white px-3 rounded-md py-2 font-bold hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...">
          <UserCircleIcon className='w-5 h-6 mr-1'></UserCircleIcon>   About
-        </Link>
+        </a>
       </Typography>
     
 
@@ -56,9 +56,9 @@ const Header = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link to='myreview'  className="flex items-center hover:text-lg duration-300 transform bg-slate-600 text-white px-3 rounded-md py-2 font-bold hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...">
+        <a href='#resume'  className="flex items-center hover:text-lg duration-300 transform bg-slate-600 text-white px-3 rounded-md py-2 font-bold hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...">
         <DocumentTextIcon className='w-5 h-6 mr-1'></DocumentTextIcon>   Resume
-        </Link>
+        </a>
       </Typography>
       <Typography
         as="li"
@@ -66,9 +66,9 @@ const Header = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link to='/addService'  className="flex items-center hover:text-lg duration-300 transform bg-slate-600 text-white px-3 rounded-md py-2 font-bold hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...">
-        <ServerStackIcon className='w-5 h-6 mr-1'></ServerStackIcon>  Works
-        </Link>
+        <a href='#project'  className="flex items-center hover:text-lg duration-300 transform bg-slate-600 text-white px-3 rounded-md py-2 font-bold hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...">
+        <ServerStackIcon className='w-5 h-6 mr-1'></ServerStackIcon>  Project
+        </a>
       </Typography>
       <Typography
         as="li"
@@ -76,9 +76,9 @@ const Header = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link to='/addService'  className="flex items-center hover:text-lg duration-300 transform bg-slate-600 text-white px-3 rounded-md py-2 font-bold hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...">
+        <a href='#blogs'  className="flex items-center hover:text-lg duration-300 transform bg-slate-600 text-white px-3 rounded-md py-2 font-bold hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...">
         <Square3Stack3DIcon className='w-5 h-6 mr-1'></Square3Stack3DIcon>  Blogs
-        </Link>
+        </a>
       </Typography>
       <Typography
         as="li"
@@ -86,9 +86,9 @@ const Header = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link to='/addService'  className="flex items-center hover:text-lg duration-300 transform bg-slate-600 text-white px-3 rounded-md py-2 font-bold hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ... ">
+        <a href='#contact' className="flex items-center hover:text-lg duration-300 transform bg-slate-600 text-white px-3 rounded-md py-2 font-bold hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ... ">
         <IdentificationIcon className='w-5 h-6 mr-1'></IdentificationIcon>   Contact
-        </Link>
+        </a>
       </Typography>
      
       </>

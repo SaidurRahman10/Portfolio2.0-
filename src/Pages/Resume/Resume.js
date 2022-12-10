@@ -1,15 +1,21 @@
 import React from 'react';
 import './Resume.css'
 import { FaBook , FaWpforms , FaAward} from 'react-icons/fa';
+import { Typewriter } from 'react-simple-typewriter'
 
 
 const Resume = () => {
     
     return (
-        <div  className='mt-52 text-white lg:mx-40 bg-black bg-opacity-50 rounded-2xl shadow-2xl p-16'>
+        <div id='resume'  className='mt-52 text-white lg:mx-40 bg-black bg-opacity-50 rounded-2xl shadow-2xl p-16'>
 
             <div>
-                <h1 className='text-5xl font-bold flex gap-2 '>Resume<hr  className="my-4   w-48 h-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...  rounded border-0 md:my-10 dark:bg-gray-700"></hr> </h1>               
+                <h1 className='lg:text-5xl font-bold flex text-3xl'><Typewriter
+                       loop={20}
+                      cursor
+                      cursorStyle='_'
+                     words={['Re', 'Resu', 'Resume', 'Resume']}
+                    /><hr  className="my-4 w-40 md:w-48 h-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...  rounded border-0 md:my-10 dark:bg-gray-700"></hr> </h1>               
                 </div>
 
 

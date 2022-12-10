@@ -31,10 +31,10 @@ const HeroSection = () => {
                        <FaLinkedin className='h-8 w-8 text-'></FaLinkedin>
                        <FaTwitter className='h-8 w-8 text-sky-600'></FaTwitter>
                     </div>
-                    <div>
+                    <a href='https://drive.google.com/file/d/1DWQKv0UlKnv5cxr5qVVEClJ-XlYb-YNV/view?usp=sharing' target="_blank">
                         <button className='px-5 py-2 rounded-full mx-auto flex gap-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ... mt-10 '>   <FaDownload className='h-5 w-5 text-white '></FaDownload> 
-                      Download CV</button>
-                    </div>
+                      Download Resume</button>
+                    </a>
                     </div>
                 </div>
    
