@@ -30,7 +30,7 @@ const Resume = () => {
                     <div >
 
 
-                        <div className='border border-slate-800 mt-4 p-5'>
+                        <div className='border border-slate-600 mt-4 p-5'>
                             <h1 className='text-slate-500 text-sm'>2019 - 2023</h1>
                              <h1 className='text-lg'>Diploma in Computer Science & Technology</h1>
                              <h1 className='text-slate-500 tex'>Feni Computer Institute, Bangladesh</h1>
@@ -38,7 +38,7 @@ const Resume = () => {
 
 
 
-                        <div className='border border-slate-800 mt-6 p-5'>
+                        <div className='border border-slate-600 mt-6 p-5'>
                             <h1 className='text-slate-500 text-sm'>2017 - 2019</h1>
                              <h1 className='text-lg'>Secondary School Certificate</h1>
                              <h1 className='text-slate-500 tex'>Feni Technical School & College</h1>
@@ -55,7 +55,7 @@ const Resume = () => {
                   <div >
 
 
-                      <div className='border border-slate-800 mt-4 p-5'>
+                      <div className='border border-slate-600 mt-4 p-5'>
                           <h1 className='text-slate-500 text-sm'>2022 - 2023</h1>
                            <h1 className='text-lg'>Front-End Development</h1>
                            <h1 className='text-slate-500 tex'>Programming Hero</h1>
@@ -63,14 +63,14 @@ const Resume = () => {
 
 
 
-                      <div className='border border-slate-800 mt-6 p-5'>
+                      <div className='border border-slate-600 mt-6 p-5'>
                           <h1 className='text-slate-500 text-sm'>2019 - 2020</h1>
                            <h1 className='text-lg'>Responsive Web Design</h1>
                            <h1 className='text-slate-500 tex'>Twoinsoft Technology</h1>
                       </div>
 
 
-                      <div className='border border-slate-800 mt-6 p-5'>
+                      <div className='border border-slate-600 mt-6 p-5'>
                           <h1 className='text-slate-500 text-sm'>2018 - 2019</h1>
                            <h1 className='text-lg'>WordPress</h1>
                            <h1 className='text-slate-500 tex'>Online Youtube | CodeWithHarry</h1>
@@ -87,7 +87,7 @@ const Resume = () => {
                   <div >
 
 
-                      <div className='border border-slate-800 mt-4 p-5'>
+                      <div className='border border-slate-600 mt-4 p-5'>
                           <h1 className='text-slate-500 text-sm'>2020 - 2021</h1>
                            <h1 className='text-lg'>Web Design Contest</h1>
                            <h1 className='text-slate-500 tex'>Twoinsoft Technology, Feni</h1>
@@ -95,14 +95,14 @@ const Resume = () => {
 
 
 
-                      <div className='border border-slate-800 mt-6 p-5'>
+                      <div className='border border-slate-600 mt-6 p-5'>
                           <h1 className='text-slate-500 text-sm'>2021- 2022</h1>
                            <h1 className='text-lg'>Freelancing Award</h1>
                            <h1 className='text-slate-500 tex'>Twoinsoft Technology, Feni</h1>
                       </div>
 
 
-                      <div className='border border-slate-800 mt-6 p-5'>
+                      <div className='border border-slate-600 mt-6 p-5'>
                           <h1 className='text-slate-500 text-sm'>2016- 2017</h1>
                            <h1 className='text-lg'>Scout award</h1>
                            <h1 className='text-slate-500 tex'>Holy Crescent School, Feni</h1>
