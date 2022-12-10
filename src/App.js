@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import { RouterProvider } from 'react-router-dom';
 import './App.css';
+import { router } from './Route/Route';
+import banner from './img/00.png'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div  className="hero bg-fixed"
+    style={{ backgroundImage: `url(${banner})` }}
+ 
+  >
+      <div className="hero-overlay "></div>
+      <RouterProvider router={router}/>
     </div>
   );
 }
