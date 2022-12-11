@@ -5,7 +5,7 @@ import banner from './img/00.png'
 
 function App() {
   return (
-    <div  className="hero bg-fixed "
+    <div  className=" bg-fixed "
     style={{ backgroundImage: `url(${banner})` }}
  
   >

@@ -6,8 +6,18 @@ import {
   Typography,
   IconButton,
 } from "@material-tailwind/react";
-import { Link } from 'react-router-dom';
+import * as Scroll from 'react-scroll';
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+
 import { HomeIcon, UserCircleIcon, DocumentTextIcon, ServerStackIcon, IdentificationIcon,Square3Stack3DIcon  } from '@heroicons/react/24/solid'
+
+
+
+
+
+
+
+
 
 
 const Header = () => {
@@ -33,7 +43,7 @@ const Header = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link to='/' className="flex items-center hover:text-lg duration-300 transform  text-white px-3 rounded-md py-2 font-bold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ... ">
+        <Link to='/'  className="flex items-center hover:text-lg duration-300 transform  text-white px-3 rounded-md py-2 font-bold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ... ">
       <HomeIcon className='w-5 h-6 mr-1'></HomeIcon>  Home
         </Link>
       </Typography>
@@ -43,9 +53,9 @@ const Header = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-         <a href='#about'  className="flex items-center hover:text-lg duration-300 transform bg-slate-600 text-white px-3 rounded-md py-2 font-bold hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...">
+         <Link to='about' spy={true} smooth={true} offset={100} duration={500}  className="flex items-center hover:text-lg duration-300 transform bg-slate-600 text-white px-3 rounded-md py-2 font-bold hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...">
          <UserCircleIcon className='w-5 h-6 mr-1'></UserCircleIcon>   About
-        </a>
+        </Link>
       </Typography>
     
 
@@ -56,9 +66,9 @@ const Header = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href='#resume'  className="flex items-center hover:text-lg duration-300 transform bg-slate-600 text-white px-3 rounded-md py-2 font-bold hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...">
+        <Link to='resume' spy={true} smooth={true} offset={100} duration={500}  className="flex items-center hover:text-lg duration-300 transform bg-slate-600 text-white px-3 rounded-md py-2 font-bold hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...">
         <DocumentTextIcon className='w-5 h-6 mr-1'></DocumentTextIcon>   Resume
-        </a>
+        </Link>
       </Typography>
       <Typography
         as="li"
@@ -66,9 +76,9 @@ const Header = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href='#project'  className="flex items-center hover:text-lg duration-300 transform bg-slate-600 text-white px-3 rounded-md py-2 font-bold hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...">
+        <Link to='project' spy={true} smooth={true} offset={100} duration={500}  className="flex items-center hover:text-lg duration-300 transform bg-slate-600 text-white px-3 rounded-md py-2 font-bold hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...">
         <ServerStackIcon className='w-5 h-6 mr-1'></ServerStackIcon>  Project
-        </a>
+        </Link>
       </Typography>
       <Typography
         as="li"
@@ -76,9 +86,9 @@ const Header = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href='#blogs'  className="flex items-center hover:text-lg duration-300 transform bg-slate-600 text-white px-3 rounded-md py-2 font-bold hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...">
+        <Link to='blogs' spy={true} smooth={true} offset={100} duration={500} className="flex items-center hover:text-lg duration-300 transform bg-slate-600 text-white px-3 rounded-md py-2 font-bold hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...">
         <Square3Stack3DIcon className='w-5 h-6 mr-1'></Square3Stack3DIcon>  Blogs
-        </a>
+        </Link>
       </Typography>
       <Typography
         as="li"
@@ -86,9 +96,9 @@ const Header = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href='#contact' className="flex items-center hover:text-lg duration-300 transform bg-slate-600 text-white px-3 rounded-md py-2 font-bold hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ... ">
+        <Link to='contact' spy={true} smooth={true} offset={100} duration={500} className="flex items-center hover:text-lg duration-300 transform bg-slate-600 text-white px-3 rounded-md py-2 font-bold hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ... ">
         <IdentificationIcon className='w-5 h-6 mr-1'></IdentificationIcon>   Contact
-        </a>
+        </Link>
       </Typography>
      
       </>
@@ -98,7 +108,8 @@ const Header = () => {
   );
  
   return (
-    <Navbar className="mx-auto  py-2 px-4 lg:px-8 lg:py-4 bg-transparent border-0">
+    <Navbar className="mx-auto  py-2 px-4 lg:px-8 lg:py-4 bg-transparent border-0 place-content-end ">
+      {/* sticky top-0 z-50  */}
       <div className="container mx-auto flex items-center justify-end gap-20  text-blue-gray-900">
         <Typography
           as="a"

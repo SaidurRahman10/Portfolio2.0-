@@ -3,7 +3,7 @@ import { FcCallback , FcInvite, FcLandscape } from "react-icons/fc";
 
 const Contact = () => {
     return (
-        <div id='contact'  className='mt-52 text-white lg:mx-40 bg-black bg-opacity-50 rounded-2xl shadow-2xl p-16'>
+        <div id='contact'  className='mt-52 mx-5 text-white lg:mx-15 bg-black bg-opacity-50 rounded-2xl shadow-2xl p-5'>
              <div>
                 <h1 className='md:text-5xl font-bold flex gap-2  text-3xl my-4'>Contact<hr  className="my-4   w-40 h-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...  rounded border-0 md:my-10 dark:bg-gray-700"></hr> </h1>               
                 </div>
@@ -12,7 +12,7 @@ const Contact = () => {
                 <div className='grid grid-cols-1 lg:grid-cols-5  gap-28'>
 
                     <div className='col-span-2'>
-                            <div className='flex gap-4 border p-5 bg-slate-800 bg-opacity-60 border-slate-300 shadow-xl '>
+                            <div className='flex gap-4 border p-5 bg-slate-800 bg-opacity-60 border-slate-300 shadow-xl rounded-xl'>
                                     <FcCallback className='w-8 h-8'></FcCallback>
                                     <div>
 
@@ -26,7 +26,7 @@ const Contact = () => {
 
 
                     <div className='my-5'>
-                            <div className='flex gap-4 border p-5 bg-slate-800 bg-opacity-60 border-slate-300 shadow-xl '>
+                            <div className='flex gap-4 border p-5 bg-slate-800 bg-opacity-60 border-slate-300 shadow-xl rounded-xl'>
                                     <FcInvite className='w-8 h-8'></FcInvite>
                                     <div>
 
@@ -40,7 +40,7 @@ const Contact = () => {
 
 
                     <div>
-                            <div className='flex gap-4 border p-5 bg-slate-800 bg-opacity-60 border-slate-300 shadow-xl '>
+                            <div className='flex gap-4 border p-5 bg-slate-800 bg-opacity-60 border-slate-300 shadow-xl rounded-xl'>
                                     <FcLandscape className='w-8 h-8'></FcLandscape>
                                     <div>
 
@@ -66,7 +66,7 @@ const Contact = () => {
                         <textarea className="textarea textarea-secondary lg:w-[30rem] md:w-96  h-36 bg-opacity-30" placeholder="Message" name='message'></textarea>
                           
                             </div>
-                        <button className='px-5 py-2 rounded-full  flex gap-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ... mt-10 ' type='Submit'>Send </button>
+                        <button className='px-5 py-2 rounded-xl  flex gap-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ... mt-10 hover:bg-gradient-to-l duration-300 transform hover:text-lg' type='Submit'>Send Message</button>
 
                         </form>
                   

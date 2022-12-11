@@ -1,0 +1,81 @@
+[
+    {
+        "name":"Tourest",
+         "img":"https://i.ibb.co/87RM296/4.png",
+         "description":"This project was create by Tailwind with tailwind components & [Create React App], React Router Dom ,Express, mongoDb and some Common Functionality .This Project based on Travel Agency .In the website i make Unique header with some Unique feature . This Website header create with dynamic route that's why we don't need much time to reload page when we click on pages.This website is totally dynamic and there are name of some dynamic feature (login, Register, Private Route & and many other ). This website most challenging part was backend (express, mongoDb ) work. This website is friendly single page website for every kind of People .",
+         "img1":"https://i.ibb.co/87RM296/4.png",
+         "img2":"https://i.ibb.co/F6wSDfT/t1.jpg",
+         "img3":"https://i.ibb.co/bvPhYmj/t2.jpg",
+        
+         "date": "6 October 2022",
+         "githubLink":"https://github.com/SaidurRahman10/TIMETOGO-CLIENT",
+         "liveLink":"https://timetogo-d9e5b.web.app/"
+        
+    },
+    {
+        "name":"MERN. State",
+         "img":"https://i.ibb.co/SJz4nDH/3.png",
+         "description":" This project was create by Tailwind with [Create React App], React Router Dom ,Express and Common Functionality. This Project based on Buying some online Programming Course.  In the website i make Unique header with some Unique feature.  This Website header create with dynamic route that's why we don't need much time to relode page when we click on pages. This website is totaly dynamic and there are name om some dynamic feature (login, Register, Private Route, Some Fake Courses and many other).  This website is friendly single page website for every kind of People. ",
+         "img1":"https://i.ibb.co/SJz4nDH/3.png",
+         "img2":"https://i.ibb.co/tJM69YK/m1.jpg",
+         "img3":"https://i.ibb.co/GPCng0T/m2.jpg",
+        
+         "date": "25 September 2022",
+         "githubLink":"https://github.com/SaidurRahman10/MERN-STATE-CLIENT",
+         "liveLink":"https://celebrated-palmier-9cb4d2.netlify.app/"
+        
+    },
+    {
+        "name":"Fast Resale",
+         "img":"https://i.ibb.co/KsbCPXm/2.png",
+         "description":"This project was create by Tailwind with tailwind components & [Create React App], React Router Dom ,Express, mongoDb and some Common Functionality . In the website i make Unique header with some Unique feature .This Website header create with dynamic route that's why we don't need much time to reload page when we click on pages. <br /> => This website is totally dynamic and there are name of some dynamic feature (login, Register, Private Route & and many other ). This website most challenging part was backend (express, mongoDb ) work.This website is friendly single page website for every kind of People .",
+         "img1":"https://i.ibb.co/KsbCPXm/2.png",
+         "img2":"https://i.ibb.co/F4M9JhK/f1.jpg",
+         "img3":"https://i.ibb.co/N79N64W/f2.jpg",
+        
+         "date": "1 November 2022",
+         "githubLink":"https://github.com/SaidurRahman10/Fast-Resale-client",
+         "liveLink":"https://fast-resale-100e5.web.app/"
+        
+    },
+    {
+        "name":"Portfolio Website",
+         "img":"https://i.ibb.co/0qL8bdb/gg.jpg",
+         "description":"This is Portfolio website. This Website is pure html css website in this website i use dynamic mail and some unique skill bar. This Website is for my personal skill testing but i make it perfect and Cool",
+         "img1":"https://i.ibb.co/0qL8bdb/gg.jpg",
+         "img2":"https://i.ibb.co/PMpkcPV/p2.jpg",
+         "img3":"https://i.ibb.co/k34462G/p3.jpg",
+        
+         "date": "27 October 2022",
+         "githubLink":"https://github.com/SaidurRahman10/Basic-portfolio",
+         "liveLink":"https://resonant-tartufo-b8088c.netlify.app/"
+        
+    },
+    {
+        "name":"E-commerce Website",
+         "img":"https://i.ibb.co/mcWKX5H/5.jpg",
+         "description":"This website is E-commerce Website.Product Selling Website. In this website there are thousand of product in there. Bayer can easily buy any product from there. This website is pure html css and js website this website i make with help of Google, Canva & Youtube",
+         "img1":"https://i.ibb.co/mcWKX5H/5.jpg",
+         "img2":"https://i.ibb.co/v3VrvQJ/e2.jpg",
+         "img3":"https://ibb.co/m5SbbbV",
+        
+         "date": "17 july 2022",
+         "githubLink":"https://github.com/SaidurRahman10/Professonal-Ecommerce-Website",
+         "liveLink":"https://saidurrahman10.github.io/Professonal-Ecommerce-Website/index.html"
+        
+    },
+    {
+        "name":"Digital Learning",
+         "img":"https://i.ibb.co/HdqjcbY/1.png",
+         "description":"In this website i add some unique Technology. The Technology help student for learn new thing and then they can go for language course also from this website. This website will help lots of people learn english and Programming language . ",
+         "img1":"https://i.ibb.co/HdqjcbY/1.png",
+         "img2":"https://i.ibb.co/7gydwNC/d1.jpg",
+         "img3":"https://i.ibb.co/Lhp8430/d2.jpg",
+        
+         "date": "1 October 2022",
+         "githubLink":"https://github.com/SaidurRahman10/Developer-Jon",
+         "liveLink":"https://saidurrahman10.github.io/Developer-Jon/"
+        
+    }
+ 
+]
