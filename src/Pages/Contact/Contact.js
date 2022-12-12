@@ -15,7 +15,7 @@ const Contact = () => {
            
             <Fade left>
 
-                    <div className='col-span-2'>
+                    <div className='col-span-3 md:col-span-2'>
                             <div className='flex gap-4 border p-5 bg-slate-800 bg-opacity-60 border-slate-300 shadow-xl rounded-xl'>
                                     <FcCallback className='w-8 h-8'></FcCallback>
                                     <div>
@@ -31,7 +31,7 @@ const Contact = () => {
 
                     <div className='my-5'>
                             <div className='flex gap-4 border p-5 bg-slate-800 bg-opacity-60 border-slate-300 shadow-xl rounded-xl'>
-                                    <FcInvite className='w-8 h-8'></FcInvite>
+                                    <FcInvite className='md:w-8 md:h-8'></FcInvite>
                                     <div>
 
                                     <h1 className='text-sm'>Email: </h1>

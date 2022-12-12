@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../../img/sr.jpg'
+import img from '../../img/fa.jpg'
 import {  FaPhone, FaLocationArrow, FaEnvelope, FaCalendar } from 'react-icons/fa';
 import { Zoom , Fade} from 'react-reveal';
 
@@ -30,7 +30,7 @@ const AboutMe = () => {
                
              
                 <h1 className='text-2xl font-bold'>Who am i?</h1>
-            <p className='text-slate-300 mt-2'> I'm Saidur Rahman, a MERN Stack Web Developer. Web design is my profession. I have 3 years of experience in web Design & 1 years of experience in MERN Stuck. A Web Developer with experience in web development using MERN Stack technologies MongoDB, Express, React & Node.js with a passion to learn and improve. My special power is I can easily improve myself with new technology. My hobby is Coding. I have always loved coding and my dream is to one day become one of the best programmers in the world.</p>
+            <p className='text-slate-300 mt-2'> I'm Saidur Rahman, a MERN Stack Web Developer. Web design is my profession. I have 3 years of experience in web Design & 1 years of experience in MERN Stack. A Web Developer with experience in web development using MERN Stack technologies MongoDB, Express, React & Node.js with a passion to learn and improve. My special power is I can easily improve myself with new technology. My hobby is Coding. I have always loved coding and my dream is to one day become one of the best programmers in the world.</p>
                
             <Zoom left>
                <div className='mt-12'>
