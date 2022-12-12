@@ -1,5 +1,7 @@
 import React from 'react';
 import { FcCallback , FcInvite, FcLandscape } from "react-icons/fc";
+import Bounce from "react-reveal/Bounce";
+import Fade from "react-reveal/Fade";
 
 const Contact = () => {
     return (
@@ -10,6 +12,8 @@ const Contact = () => {
 
 
                 <div className='grid grid-cols-1 lg:grid-cols-5  gap-28'>
+           
+            <Fade left>
 
                     <div className='col-span-2'>
                             <div className='flex gap-4 border p-5 bg-slate-800 bg-opacity-60 border-slate-300 shadow-xl rounded-xl'>
@@ -51,10 +55,14 @@ const Contact = () => {
                             </div>
                     </div>
                 </div>
+            </Fade>
+            
 
 
 
-                    <div className='col-span-3'>
+        <Bounce right>
+
+          <div className='col-span-3'>
 
                         <form action="https://getform.io/f/240d00ac-ba1d-41e4-afce-093fa053294a" method="POST" enctype="multipart/form-data">
                             <div className='flex flex-col '>
@@ -67,20 +75,10 @@ const Contact = () => {
                           
                             </div>
                         <button className='px-5 py-2 rounded-xl  flex gap-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ... mt-10 hover:bg-gradient-to-l duration-300 transform hover:text-lg' type='Submit'>Send Message</button>
-
                         </form>
-                  
-
-
-
-
-
                     </div>
+        </Bounce>
                 </div>
-
-
-
-
         </div>
     );
 };

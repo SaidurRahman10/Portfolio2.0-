@@ -1,23 +1,27 @@
 import React, { useEffect, useState } from 'react';
-import { FcCdLogo } from 'react-icons/fc';
 import {  useLoaderData } from "react-router-dom";
-import bgBanner from '../../img/100.png'
-import Fade from 'react-reveal/Fade';
+
+import Bounce from "react-reveal/Bounce";
+import Fade from "react-reveal/Fade";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import { FaGithub, FaNetworkWired, FaRegPaperPlane } from 'react-icons/fa';
+import HeaderForDetailPage from '../Navbar/HeaderForDetailPage';
+import { FcApproval, FcDatabase, FcServices } from "react-icons/fc";
 
 
 const DetailPage = () => {
     const Alldata = useLoaderData()
-     const {name, img , description, img1, img2, img3, date,githubLink, liveLink} = Alldata;
+     const {name, img , title1,title2,title3,title4,title5, tech6, tech1,tech2,tech3,tech4, img1, img2, img3, date,githubLink, liveLink} = Alldata;
 
    
     return (
-        <div className='  min-h-screen bg-black bg-opacity-40 p-10'>
+        <div className='bg-gradient-to-r from-black via-slate-800 to-gray-500 '>
+            <HeaderForDetailPage></HeaderForDetailPage>
+        <div className='  min-h-screen  p-10'>
 
             <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
-
+        <Bounce top>
          <div className='mt-5'>
          <Carousel>
                 <div>
@@ -34,35 +38,61 @@ const DetailPage = () => {
                 </div>
             </Carousel>
          </div>
-
+</Bounce>
 
           
 
-            <div className=' w-full h-auto border rounded-3xl p-8 hover:bg-white text-white hover:text-black duration-300 transform hover:p-16'>
+            <div className=' w-full h-auto border rounded-3xl p-8 hover:bg-white text-white hover:text-black  duration-300 transform hover:p-16'>
 
-                <h1 className='text-center text-2xl underline font-bold '>About Project</h1>
+              <div>
+              <div className='flex justify-between'>
+                <Fade top>
 
-        <h1 className='p-10 font-bold text-lg '>{description}</h1>
+              <h1 className='text-start text-3xl mb-3 font-bold '>{name}</h1>
+              <p>Publish Data:  {date}</p>
+                </Fade>
+              </div>
+
+              <div className='flex justify-evenly'>
+               <Fade top>
+              <a className='border px-5 pb-2 rounded-2xl '  href={githubLink}>  <div className='text-md mt-3 font-bold flex gap-2'>Code Link  <span><FaGithub className='h-6 w-8'></FaGithub></span>
+            </div></a>
+               
+             
+            <a className='border px-5 pb-2 rounded-2xl' href={liveLink}> <div className='text-md mt-3 font-bold flex gap-2'>Website Link  <span><FaRegPaperPlane  className='h-6 w-8'></FaRegPaperPlane></span>          
+            </div></a>
+               </Fade>
+
+
+              </div>
+             <Bounce left>
+             <h1 className=' font-bold text-sm my-5 flex gap-3'> <span><FcApproval className='h-5 w-5'></FcApproval></span>  {title1}</h1>
+              <h1 className=' font-bold text-sm my-5 flex gap-3'><span><FcApproval className='h-5 w-5'></FcApproval></span>  {title2}</h1>
+              <h1 className=' font-bold text-sm my-5 flex gap-3'><span><FcApproval className='h-5 w-5'></FcApproval></span>  {title3}</h1>
+              <h1 className=' font-bold text-sm my-5 flex gap-3'> <span><FcApproval className='h-5 w-5'></FcApproval></span>  {title4}</h1>
+              <h1 className=' font-bold text-sm my-5 flex gap-3'> <span><FcApproval className='h-5 w-5'></FcApproval></span> {title5}</h1>
+             </Bounce>
+              </div>
+
+
+
+              <div className='mt-12'>
+                <Bounce>
+
+              <h1 className='text-start text-2xl  font-bold flex gap-2'><span className='mt-1'> <FcDatabase></FcDatabase>  </span> Technology</h1>
+              <h1 className=' font-bold text-md my-5 flex gap-3'> <span ><FcServices className='h-6 w-6'></FcServices></span> {tech1}</h1>
+              <h1 className=' font-bold text-md my-5 flex gap-3'> <span ><FcServices className='h-6 w-6'></FcServices></span> {tech2}</h1>
+              <h1 className=' font-bold text-md my-5 flex gap-3'> <span ><FcServices className='h-6 w-6'></FcServices></span> {tech3}</h1>
+              <h1 className=' font-bold text-md my-5 flex gap-3'> <span ><FcServices className='h-6 w-6'></FcServices></span> {tech4}</h1>
+              <h1 className=' font-bold text-md my-5 flex gap-3'> <span ><FcServices className='h-6 w-6'></FcServices></span> {tech6}</h1>
+                </Bounce>
+              </div>
 </div>
 
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-10 '>
-            <div className='w-full h-auto border rounded-3xl p-8 hover:p-12 duration-300 transform hover:bg-white text-white hover:text-black'>
-                <p>Publish Data:  {date}</p>
-            <h1 className=' text-2xl  font-bold mt-4'>Project Name : Fast Resale</h1>
-            <h1 className='text-2xl mt-3 font-bold flex gap-5'>Code Link:  <span><a href={githubLink}><FaGithub className='h-8 w-8'></FaGithub></a></span>
-            
-            </h1>
-            <h1 className='text-2xl mt-3 font-bold flex gap-5'>Website Link:  <span><a href={liveLink}><FaRegPaperPlane  className='h-8 w-8'></FaRegPaperPlane></a></span>
-            
-            </h1>
-
-        
+           
 
 </div>
-</div>
-
-            
         </div>
     );
 };

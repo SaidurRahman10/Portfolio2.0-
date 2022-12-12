@@ -4,6 +4,7 @@ import Blog from "../Blog/Blog";
 import Contact from "../Contact/Contact";
 import HeroSection from "../HeroSection/HeroSection";
 import Header from "../Navbar/Header";
+
 import ProjectSection from "../ProjectSection/ProjectSection";
 import Resume from "../Resume/Resume";
 
