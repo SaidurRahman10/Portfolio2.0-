@@ -16,7 +16,7 @@ const DetailPage = () => {
 
    
     return (
-        <div className='bg-gradient-to-r from-black via-slate-800 to-gray-500 '>
+        <div className='bg-gradient-to-r from-pink-400 via-cyan-900 to-teal-500 '>
             <HeaderForDetailPage></HeaderForDetailPage>
         <div className='  min-h-screen  p-10'>
 

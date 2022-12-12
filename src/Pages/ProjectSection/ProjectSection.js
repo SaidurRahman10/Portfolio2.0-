@@ -11,6 +11,7 @@ import Bounce from "react-reveal/Bounce";
 import DetailPage from "../DetailPage/DetailPage";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
+import { FaGithub, FaRegPaperPlane } from "react-icons/fa";
 
 const ProjectSection = () => {
   const [projects, setProjects] = useState([]);
@@ -49,15 +50,26 @@ const ProjectSection = () => {
                 <div className="card-body">
                   <h2 className="card-title">{proj.name}</h2>
                   <p>
-                    This website made for tour Lovers. In this website we can
-                    easily booked any place for tour.
+                    {proj.description}
                   </p>
-                  <div className="card-actions justify-start">
-                    <Link to={`/${proj._id}`} className="btn btn-primary">
-                      Explore
+                  <div className='flex justify-between'>
+               <Fade top>
+              <a className='border px-5 pb-2 rounded-2xl '  href={proj.githubLink}>  <div className='text-xs mt-3 font-bold flex gap-2'>Code Link  <span><FaGithub className='h-4 w-5'></FaGithub></span>
+            </div></a>
+               
+             
+            <a className='border px-5 pb-2 rounded-2xl' href={proj.liveLink}> <div className='text-xs mt-3 font-bold flex gap-2'>Website Link  <span><FaRegPaperPlane  className='h-4 w-6'></FaRegPaperPlane></span>          
+            </div></a>
+               </Fade>
+
+
+              </div>
+                </div>
+                  <div className="card-actions w-full rounded-xl">
+                    <Link to={`/${proj._id}`} className="btn hover:bg-gradient-to-l bg-gradient-to-r from-pink-400 via-cyan-900 to-teal-500 w-full font-bold">
+                      Explore More
                     </Link>
                   </div>
-                </div>
               </div>
             </Fade>
           </section>

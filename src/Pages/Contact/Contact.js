@@ -62,7 +62,7 @@ const Contact = () => {
 
         <Bounce right>
 
-          <div className='col-span-3'>
+          <div className='col-span-3 lg:flex lg:justify-center'>
 
                         <form action="https://getform.io/f/240d00ac-ba1d-41e4-afce-093fa053294a" method="POST" enctype="multipart/form-data">
                             <div className='flex flex-col '>

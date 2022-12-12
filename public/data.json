@@ -1,184 +1,157 @@
 [
-    {
-        "name":"Tourest",
-         "img":"https://i.ibb.co/87RM296/4.png",
-         "img1":"https://i.ibb.co/87RM296/4.png",
-         "img2":"https://i.ibb.co/F6wSDfT/t1.jpg",
-         "img3":"https://i.ibb.co/bvPhYmj/t2.jpg",
-        
-         "date": "6 October 2022",
-         "githubLink":"https://github.com/SaidurRahman10/TIMETOGO-CLIENT",
-         "liveLink":"https://timetogo-d9e5b.web.app/",
-         "title1":"This project was create by Tailwind with tailwind components & [Create React App], React Router Dom ,Express, mongoDb and some Common Functionality.",
-         "title2":"This Project based on Travel Agency .In the website i make Unique header with some Unique feature ",
-         "title3":"This Website header create with dynamic route that's why we don't need much time to reload page when we click on pages.This website is totally dynamic and there are name of some dynamic feature (login, Register, Private Route & and many other ).",
-         "title4":" This website most challenging part was backend (express, mongoDb ) work.",
-         "title5":" This website is friendly single page website for every kind of People .",
-       
+  {
+    "name": "Tourest",
+    "img": "https://i.ibb.co/87RM296/4.png",
+    "img1": "https://i.ibb.co/87RM296/4.png",
+    "img2": "https://i.ibb.co/F6wSDfT/t1.jpg",
+    "img3": "https://i.ibb.co/bvPhYmj/t2.jpg",
+    "description": "This Project based on Travel Agency .In the website i make Unique header with some Unique feature. This Website header create with dynamic route that's why we don't need much time to reload page when we click on pages. ",
 
+    "date": "6 October 2022",
+    "githubLink": "https://github.com/SaidurRahman10/TIMETOGO-CLIENT",
+    "liveLink": "https://timetogo-d9e5b.web.app/",
+    "title1": "This project was create by Tailwind with tailwind components & [Create React App], React Router Dom ,Express, mongoDb and some Common Functionality.",
+    "title2": "This Project based on Travel Agency .In the website i make Unique header with some Unique feature ",
+    "title3": "This Website header create with dynamic route that's why we don't need much time to reload page when we click on pages.This website is totally dynamic and there are name of some dynamic feature (login, Register, Private Route & and many other ).",
+    "title4": " This website most challenging part was backend (express, mongoDb ) work.",
+    "title5": " This website is friendly single page website for every kind of People .",
 
+    "tech1": "React",
+    "tech2": "Tailwind",
+    "tech7": "Node JS",
+    "tech3": "Express Js",
+    "tech4": "Firebase",
 
+    "tech6": "MongoDB"
+  },
+  {
+    "name": "MERN. State",
+    "img": "https://i.ibb.co/SJz4nDH/3.png",
+    "img1": "https://i.ibb.co/SJz4nDH/3.png",
+    "img2": "https://i.ibb.co/tJM69YK/m1.jpg",
+    "img3": "https://i.ibb.co/GPCng0T/m2.jpg",
+    "description": "This project was create by Tailwind with [Create React App], React Router Dom ,Express and Common Functionality.This Project based on Buying some online Programming Course.",
 
-         "tech1":"React",
-         "tech2":"Tailwind",
-         "tech7":"Node JS",
-         "tech3":"Express Js",
-         "tech4":"Firebase",
-         
-         "tech6":"MongoDB"
-       
-        
-    },
-    {
-        "name":"MERN. State",
-         "img":"https://i.ibb.co/SJz4nDH/3.png",
-         "img1":"https://i.ibb.co/SJz4nDH/3.png",
-         "img2":"https://i.ibb.co/tJM69YK/m1.jpg",
-         "img3":"https://i.ibb.co/GPCng0T/m2.jpg",
-        
-         "date": "25 September 2022",
-         "githubLink":"https://github.com/SaidurRahman10/MERN-STATE-CLIENT",
-         "liveLink":"https://celebrated-palmier-9cb4d2.netlify.app/",
-         "title1":" This project was create by Tailwind with [Create React App], React Router Dom ,Express and Common Functionality.",
-         "title2":" This Project based on Buying some online Programming Course.",
-         "title3":" In the website i make Unique header with some Unique feature. ",
-         "title4":"This Website header create with dynamic route that's why we don't need much time to relode page when we click on pages.",
-         "title5":"  This website is totaly dynamic and there are name om some dynamic feature (login, Register, Private Route, Some Fake Courses and many other).",
-         "title6":"  This website is friendly single page website for every kind of People.",
+    "date": "25 September 2022",
+    "githubLink": "https://github.com/SaidurRahman10/MERN-STATE-CLIENT",
+    "liveLink": "https://celebrated-palmier-9cb4d2.netlify.app/",
+    "title1": " This project was create by Tailwind with [Create React App], React Router Dom ,Express and Common Functionality.",
+    "title2": " This Project based on Buying some online Programming Course.",
+    "title3": " In the website i make Unique header with some Unique feature. ",
+    "title4": "This Website header create with dynamic route that's why we don't need much time to relode page when we click on pages.",
+    "title5": "  This website is totaly dynamic and there are name om some dynamic feature (login, Register, Private Route, Some Fake Courses and many other).",
+    "title6": "  This website is friendly single page website for every kind of People.",
 
+    "tech1": "React",
+    "tech2": "Tailwind",
+    "tech7": "Node JS",
+    "tech3": "Express Js",
+    "tech4": "Firebase",
 
+    "tech6": "MongoDB"
+  },
 
+  {
+    "name": "Portfolio Website",
+    "img": "https://i.ibb.co/0qL8bdb/gg.jpg",
+    "description": "This is my old  Portfolio website. This Website is pure HTML , CSS , JS  & Bootstrap.There is some unique Feature in there with Javascript",
+    "img1": "https://i.ibb.co/0qL8bdb/gg.jpg",
+    "img2": "https://i.ibb.co/PMpkcPV/p2.jpg",
+    "img3": "https://i.ibb.co/k34462G/p3.jpg",
 
-         "tech1":"React",
-         "tech2":"Tailwind",
-         "tech7":"Node JS",
-         "tech3":"Express Js",
-         "tech4":"Firebase",
-         
-         "tech6":"MongoDB"
-        
-    },
-    {
-        "name":"Fast Resale",
-         "img":"https://i.ibb.co/KsbCPXm/2.png",
-         "description":"  <br /> =>",
-         "img1":"https://i.ibb.co/KsbCPXm/2.png",
-         "img2":"https://i.ibb.co/F4M9JhK/f1.jpg",
-         "img3":"https://i.ibb.co/N79N64W/f2.jpg",
-        
-         "date": "1 November 2022",
-         "githubLink":"https://github.com/SaidurRahman10/Fast-Resale-client",
-         "liveLink":"https://fast-resale-100e5.web.app/",
-        
-         "title1":"This project was create by Tailwind with tailwind components & [Create React App], React Router Dom ,Express, mongoDb and some Common Functionality .",
-         "title2":"In the website i make Unique header with some Unique feature .",
-         "title3":"This Website header create with dynamic route that's why we don't need much time to reload page when we click on pages.",
-         "title4":"This website is totally dynamic and there are name of some dynamic feature (login, Register, Private Route & and many other ). ",
-         "title5":" This website most challenging part was backend (express, mongoDb ) work.",
-         "title6":"This website is friendly single page website for every kind of People .",
+    "date": "27 October 2022",
+    "githubLink": "https://github.com/SaidurRahman10/Basic-portfolio",
+    "liveLink": "https://resonant-tartufo-b8088c.netlify.app/",
 
+    "title1": "This is my old  Portfolio website",
+    "title2": "This Website is pure HTML , CSS , JS  & Bootstrap",
+    "title3": "There is some unique Feature in there with Javascript",
+    "title4": "There are is dynamic mail and some unique skill bar",
+    "title5": "This Website is for my personal skill testing but i make it perfect and Cool",
 
+    "tech1": "HTML",
+    "tech2": "CSS",
+    "tech7": "Bootstrap",
+    "tech3": "JS",
+    "tech4": "Dynamic Mail",
+    "tech6": "Canva Pro"
+  },
+  {
+    "name": "Fast Resale",
+    "img": "https://i.ibb.co/KsbCPXm/2.png",
+    "img1": "https://i.ibb.co/KsbCPXm/2.png",
+    "img2": "https://i.ibb.co/F4M9JhK/f1.jpg",
+    "img3": "https://i.ibb.co/N79N64W/f2.jpg",
+    "description": "The Website is For Sell Secondhand cars.This project was create by Tailwind with tailwind components & [Create React App], React Router Dom ,Express, mongoDb and some Common Functionality .",
 
+    "date": "1 November 2022",
+    "githubLink": "https://github.com/SaidurRahman10/Fast-Resale-client",
+    "liveLink": "https://fast-resale-100e5.web.app/",
 
-         "tech1":"React",
-         "tech2":"Tailwind",
-         "tech7":"Node JS",
-         "tech3":"Express Js",
-         "tech4":"Firebase",
-         
-         "tech6":"MongoDB"
-        
-    },
-    {
-        "name":"Portfolio Website",
-         "img":"https://i.ibb.co/0qL8bdb/gg.jpg",
-         "description":"This is. This Website is pure html css website in this website i use . ",
-         "img1":"https://i.ibb.co/0qL8bdb/gg.jpg",
-         "img2":"https://i.ibb.co/PMpkcPV/p2.jpg",
-         "img3":"https://i.ibb.co/k34462G/p3.jpg",
-        
-         "date": "27 October 2022",
-         "githubLink":"https://github.com/SaidurRahman10/Basic-portfolio",
-         "liveLink":"https://resonant-tartufo-b8088c.netlify.app/",
-        
-         "title1":"This is my old  Portfolio website",
-         "title2":"This Website is pure HTML , CSS , JS  & Bootstrap",
-         "title3":"There is some unique Feature in there with Javascript",
-         "title4":"There are is dynamic mail and some unique skill bar",
-         "title5":"This Website is for my personal skill testing but i make it perfect and Cool",
-    
+    "title1": "This project was create by Tailwind with tailwind components & [Create React App], React Router Dom ,Express, mongoDb and some Common Functionality .",
+    "title2": "In the website i make Unique header with some Unique feature .",
+    "title3": "This Website header create with dynamic route that's why we don't need much time to reload page when we click on pages.",
+    "title4": "This website is totally dynamic and there are name of some dynamic feature (login, Register, Private Route & and many other ). ",
+    "title5": " This website most challenging part was backend (express, mongoDb ) work.",
+    "title6": "This website is friendly single page website for every kind of People .",
 
+    "tech1": "React",
+    "tech2": "Tailwind",
+    "tech7": "Node JS",
+    "tech3": "Express Js",
+    "tech4": "Firebase",
 
+    "tech6": "MongoDB"
+  },
+  {
+    "name": "E-commerce Website",
+    "img": "https://i.ibb.co/mcWKX5H/5.jpg",
 
+    "img1": "https://i.ibb.co/mcWKX5H/5.jpg",
+    "img2": "https://i.ibb.co/v3VrvQJ/e2.jpg",
+    "img3": "https://ibb.co/m5SbbbV",
+    "description": "This website is E-commerce Website. This website main priority is Selling Product. There is cart section for byre and Some Unique Feature in there.",
 
-         "tech1":"HTML",
-         "tech2":"CSS",
-         "tech7":"Bootstrap",
-         "tech3":"JS",
-         "tech4":"Dynamic Mail",
-         "tech6":"Canva Pro"
-        
-    },
-    {
-        "name":"E-commerce Website",
-         "img":"https://i.ibb.co/mcWKX5H/5.jpg",
-         
-         "img1":"https://i.ibb.co/mcWKX5H/5.jpg",
-         "img2":"https://i.ibb.co/v3VrvQJ/e2.jpg",
-         "img3":"https://ibb.co/m5SbbbV",
-        
-         "date": "17 july 2022",
-         "githubLink":"https://github.com/SaidurRahman10/Professonal-Ecommerce-Website",
-         "liveLink":"https://saidurrahman10.github.io/Professonal-Ecommerce-Website/index.html",
-         
-         "title1":"This website is E-commerce Website.",
-         "title2":"Product Selling Website.",
-         "title3":"In the website there are thousand of product in there",
-         "title4":"Bayer can easily buy any product from here.",
-         "title5":"This website is pure html css and js website this website i make with help of Google, Canva & Youtube",
-     
+    "date": "17 july 2022",
+    "githubLink": "https://github.com/SaidurRahman10/Professonal-Ecommerce-Website",
+    "liveLink": "https://saidurrahman10.github.io/Professonal-Ecommerce-Website/index.html",
 
+    "title1": "This website is E-commerce Website.",
+    "title2": "Product Selling Website.",
+    "title3": "In the website there are thousand of product in there",
+    "title4": "Bayer can easily buy any product from here.",
+    "title5": "This website is pure html css and js website this website i make with help of Google, Canva & Youtube",
 
+    "tech1": "HTML",
+    "tech2": "CSS",
+    "tech7": "JS",
+    "tech3": "Carousel",
+    "tech4": "Canva Pro",
+    "tech6": "Photoshop"
+  },
+  {
+    "name": "Digital Learning",
+    "img": "https://i.ibb.co/HdqjcbY/1.png",
+    "description": "This is Digital Learning Website. In this website i add some unique Technology.  The Technology help student for learn new thing and then they can go for language course also from this website. ",
+    "img1": "https://i.ibb.co/HdqjcbY/1.png",
+    "img2": "https://i.ibb.co/7gydwNC/d1.jpg",
+    "img3": "https://i.ibb.co/Lhp8430/d2.jpg",
 
+    "date": "1 October 2022",
+    "githubLink": "https://github.com/SaidurRahman10/Developer-Jon",
+    "liveLink": "https://saidurrahman10.github.io/Developer-Jon/",
 
-         "tech1":"HTML",
-         "tech2":"CSS",
-         "tech7":"JS",
-         "tech3":"Carousel",
-         "tech4":"Canva Pro",
-         "tech6":"Photoshop"
+    "title1": "This is Digital Learning Website",
+    "title2": "In this website i add some unique Technology.",
+    "title3": "The Technology help student for learn new thing and then they can go for language course also from this website.",
+    "title4": "I made this website with the help of Tailwind CSS",
+    "title5": "This website will help lots of people learn english and Programming language .",
 
-        
-    },
-    {
-        "name":"Digital Learning",
-         "img":"https://i.ibb.co/HdqjcbY/1.png",
-         "description":"  ",
-         "img1":"https://i.ibb.co/HdqjcbY/1.png",
-         "img2":"https://i.ibb.co/7gydwNC/d1.jpg",
-         "img3":"https://i.ibb.co/Lhp8430/d2.jpg",
-        
-         "date": "1 October 2022",
-         "githubLink":"https://github.com/SaidurRahman10/Developer-Jon",
-         "liveLink":"https://saidurrahman10.github.io/Developer-Jon/",
-         
-         "title1":"This is Digital Learning Website",
-         "title2":"In this website i add some unique Technology.",
-         "title3":"The Technology help student for learn new thing and then they can go for language course also from this website.",
-         "title4":"I made this website with the help of Tailwind CSS",
-         "title5":"This website will help lots of people learn english and Programming language .",
-       
-
-
-
-
-         "tech1":"HTML",
-         "tech2":"Tailwind",
-         "tech7":"Js",
-         "tech3":"Canva Pro",
-         "tech4":"Photoshop",
-         "tech6":"Lightroom"
-        
-    }
- 
+    "tech1": "HTML",
+    "tech2": "Tailwind",
+    "tech7": "Js",
+    "tech3": "Canva Pro",
+    "tech4": "Photoshop",
+    "tech6": "Lightroom"
+  }
 ]
