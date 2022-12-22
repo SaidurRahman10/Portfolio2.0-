@@ -55,11 +55,11 @@ const DetailPage = () => {
 
               <div className='flex justify-evenly'>
                <Fade top>
-              <a className='border px-5 pb-2 rounded-2xl '  href={githubLink}>  <div className='text-md mt-3 font-bold flex gap-2'>Code Link  <span><FaGithub className='h-6 w-8'></FaGithub></span>
+              <a className='border px-5 pb-2 rounded-2xl transform duration-300 hover:bg-black hover:text-white'  href={githubLink}>  <div className='text-md mt-3 font-bold flex gap-2'>Code Link  <span><FaGithub className='h-6 w-8'></FaGithub></span>
             </div></a>
                
              
-            <a className='border px-5 pb-2 rounded-2xl' href={liveLink}> <div className='text-md mt-3 font-bold flex gap-2'>Website Link  <span><FaRegPaperPlane  className='h-6 w-8'></FaRegPaperPlane></span>          
+            <a className='border px-5 pb-2 rounded-2xl transform duration-300 hover:bg-black hover:text-white' href={liveLink}> <div className='text-md mt-3 font-bold flex gap-2'>Website Link  <span><FaRegPaperPlane  className='h-6 w-8'></FaRegPaperPlane></span>          
             </div></a>
                </Fade>
 

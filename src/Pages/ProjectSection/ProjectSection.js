@@ -43,7 +43,7 @@ const ProjectSection = () => {
         {projects.map((proj) => (
           <section key={proj._id}>
             <Fade right>
-              <div className="card w-96 glass">
+              <div className="card w-96 glass  ">
                 <figure>
                   <img src={proj.img} alt="car!" />
                 </figure>
@@ -54,11 +54,11 @@ const ProjectSection = () => {
                   </p>
                   <div className='flex justify-between'>
                <Fade top>
-              <a className='border px-5 pb-2 rounded-2xl '  href={proj.githubLink}>  <div className='text-xs mt-3 font-bold flex gap-2'>Code Link  <span><FaGithub className='h-4 w-5'></FaGithub></span>
+              <a className='border px-5 pb-2 rounded-2xl transform duration-300 hover:bg-white hover:text-black'  href={proj.githubLink}>  <div className='text-xs mt-3 font-bold flex gap-2'>Code Link  <span><FaGithub className='h-4 w-5'></FaGithub></span>
             </div></a>
                
              
-            <a className='border px-5 pb-2 rounded-2xl' href={proj.liveLink}> <div className='text-xs mt-3 font-bold flex gap-2'>Website Link  <span><FaRegPaperPlane  className='h-4 w-6'></FaRegPaperPlane></span>          
+            <a className='border px-5 pb-2 rounded-2xl transform duration-300 hover:bg-white hover:text-black' href={proj.liveLink}> <div className='text-xs mt-3 font-bold flex gap-2'>Website Link  <span><FaRegPaperPlane  className='h-4 w-6'></FaRegPaperPlane></span>          
             </div></a>
                </Fade>
 

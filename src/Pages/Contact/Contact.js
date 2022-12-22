@@ -67,11 +67,11 @@ const Contact = () => {
                         <form action="https://getform.io/f/240d00ac-ba1d-41e4-afce-093fa053294a" method="POST" enctype="multipart/form-data">
                             <div className='flex flex-col '>
 
-                        <input type="name" placeholder="Name" className="input input-bordered input-secondary lg:w-[30rem] md:w-96  bg-opacity-30" name='name'/>
+                        <input type="name" placeholder="Name" className="input input-bordered input-secondary lg:w-[30rem] md:w-96  bg-opacity-30" name='name' required/>
                         
-                        <input type="email" placeholder="E-mail" className="input input-bordered input-primary lg:w-[30rem] md:w-96  my-5 bg-opacity-30" name='email' />
+                        <input type="email" placeholder="E-mail" className="input input-bordered input-primary lg:w-[30rem] md:w-96  my-5 bg-opacity-30" name='email' required/>
                       
-                        <textarea className="textarea textarea-secondary lg:w-[30rem] md:w-96  h-36 bg-opacity-30" placeholder="Message" name='message'></textarea>
+                        <textarea className="textarea textarea-secondary lg:w-[30rem] md:w-96  h-36 bg-opacity-30" placeholder="Message" name='message' required></textarea>
                           
                             </div>
                         <button className='px-5 py-2 rounded-xl  flex gap-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ... mt-10 hover:bg-gradient-to-l duration-300 transform hover:text-lg' type='Submit'>Send Message</button>
